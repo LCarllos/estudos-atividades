@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/* === Estilos globais === */
+div {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+
+/* === 2 SEÇÃO === */
+
+.sobre{
+    background-color: #afddfb;
+}
+
+.sobre img {
+    width: 150px;
+}
+
+.sobre p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.sobre a{
+    font-size: 18px;
+    color: #1d1d1d;
+    border-bottom: 2px solid #1d1d1d;
+    text-decoration: none;
+    margin: 0px, 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* === 3 SEÇÃO === */
+
+h1{
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+h2{
+    color: #1c81c0;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.propaganda img{
+    width: 450px;    
+}
+
+.propaganda span{
+    color: #1c81c0;    
+}
+
+/* === 4 SEÇÃO === */
+
+.servicos, .contato  {
+    background-color: #1d80c1;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.servicos p{
+    color: #ffffff;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+.servicos span{
+    color: #fff81b;
+}
+
+.servicos ul{
+    margin: 40px auto 40px;
+    width: 135px;
+}
+
+.servicos li{
+    color: #ffffff;
+    text-align: left;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+/* === 5 SEÇÃO === */
+
+.corretores h3{
+    color: #1c81c0;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.corretores img{
+    width: 450px;
+}
+
+.corretores span{
+    color: #1c81c0;
+    font-weight: bold;
+}
+
+/* === 6 SEÇÃO === */
+
+.contato h3{
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.contato p{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #1d1d1d;
+    padding:  15px;
+    margin: 30px ;
+    font-size: 22px;
+    text-align: center;
+}
+
+.contato span{
+    color: #fff81b;
+    font-weight: bold;
+}
+
+.contato iframe{
+    width: 700px;
+    height: 250px;
+}
+
+.contato ul{
+    margin: 40px auto 40px;
+    list-style: none;
+    width: 210px;
+}
+
+.contato li{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contato a{
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.rodape{    
+    background-color: #1d1d1d;
+    margin: 0;  
+    padding: 5px; 
+    color: #fff81b;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.paragrafo-rodape{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1d1d1d;
+}
