@@ -6,19 +6,23 @@
     <meta name="description" content="A Imobiliária que te ajuda a conquistar seu sonho da casa nova">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imobiliária Santos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <!-- === SEÇÃO SOBRE === -->
     <div id="sobre" class="sobre">
         <img src="img/logo.png" alt="logotipo">
-        <p>
-            <a href="#sobre">Sobre</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#corretores">Corretores</a>
-            <a href="#contato">Contato</a>
-        </p>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">Menu<span>
+                <menu id="itens">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#corretores">Corretores</a>
+                    <a href="#contato">Contato</a>
+                </menu>
+
     </div>
     <div>
         <img src="img/banner.jpg" alt="Banner">
@@ -64,20 +68,29 @@
         </ul>
     </div>
     <a href=""></a>
-</body>
-<footer>
-    <div class="rodape">
-        <p class="paragrafo-rodape">
-            <a class="paragrafo-rodape" href="#sobre">Sobre</a>
-            <a class="paragrafo-rodape"  href="#servicos">Serviços</a>
-            <a class="paragrafo-rodape"  href="#corretores">Corretores</a>
-            <a class="paragrafo-rodape"  href="#contato">Contato</a>
-        </p>
-        <p class="paragrafo-rodape">
-            São Paulo SP - LCarllos - 2023
-        </p>
+    <footer>
+        <div class="rodape">
+            <p class="paragrafo-rodape">
+                <a class="paragrafo-rodape" href="#sobre">Sobre</a>
+                <a class="paragrafo-rodape"  href="#servicos">Serviços</a>
+                <a class="paragrafo-rodape"  href="#corretores">Corretores</a>
+                <a class="paragrafo-rodape"  href="#contato">Contato</a>
+            </p>
+            <p class="paragrafo-rodape">
+                São Paulo SP - LCarllos - 2023
+            </p>
+        </div>
     </div>
-</div>
-</footer>
+    </footer>
+        <script>
+            function clickMenu() {
+                if (itens.style.display == 'block') {
+                    itens.style.display = 'none'
+                } else {
+                    itens.style.display = 'block'
+                }
+            }
+        </script>
+</body>
 </html>
 

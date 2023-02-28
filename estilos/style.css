@@ -1,5 +1,6 @@
-body{
-    margin: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     font-family: Tahoma;
 }
 
@@ -28,6 +29,32 @@ p {
     width: 150px;
 }
 
+#burger{
+    background-color: #1c81c0;
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: #166194;
+    color: #fff81b;
+}
+
+menu {
+    display: none;
+}
+
+menu > a {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
 .sobre p{
     margin-top: 15px;
     margin-bottom: 25px;
@@ -36,7 +63,7 @@ p {
 
 .sobre a{
     font-size: 18px;
-    color: #1d1d1d;
+    color: whitesmoke;
     border-bottom: 2px solid #1d1d1d;
     text-decoration: none;
     margin: 0px, 10px;

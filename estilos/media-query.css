@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+   
+    body {
+        background-image: linear-gradient(to top,#1d1d1d, white);
+    }
+
+    .sobre > img{
+        height: 100%;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    /* menu {
+        display: block;
+    }
+
+    menu > a {
+        display: inline-block;
+    } */
+
+    .sobre p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    div > img {
+        width: 90%;
+        height: 100%;
+    }
+}
